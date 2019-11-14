@@ -4,9 +4,9 @@
   "main": "dist/videojs-dash.cjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/videojs/videojs-contrib-dash.git"
+    "url": "https://github.com/adamtal3/videojs-contrib-dash.git"
   },
-  "version": "2.11.0",
+  "version": "2.11.50",
   "author": "Brightcove, Inc",
   "license": "Apache-2.0",
   "scripts": {
@@ -56,7 +56,7 @@
     "test/"
   ],
   "dependencies": {
-    "dashjs": "2.9.3",
+    "dashjs": "git+https://github.com/adamtal3/dash.js#tk",
     "global": "^4.3.2",
     "video.js": "^5.18.0 || ^6 || ^7"
   },
