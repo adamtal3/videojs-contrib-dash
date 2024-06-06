@@ -1,5 +1,78 @@
+<a name="5.1.1"></a>
+## [5.1.1](https://github.com/videojs/videojs-contrib-dash/compare/v5.1.0...v5.1.1) (2021-11-30)
+
+### Bug Fixes
+
+* update dashjs to 4.2.0 ([#372](https://github.com/videojs/videojs-contrib-dash/issues/372)) ([2f83f71](https://github.com/videojs/videojs-contrib-dash/commit/2f83f71))
+
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/videojs/videojs-contrib-dash/compare/v5.0.0...v5.1.0) (2021-09-17)
+
+### Features
+
+* ttml support ([#319](https://github.com/videojs/videojs-contrib-dash/issues/319)) ([3859998](https://github.com/videojs/videojs-contrib-dash/commit/3859998))
+
+### Bug Fixes
+
+* **package:** update dash.js to 4.0.1 ([#369](https://github.com/videojs/videojs-contrib-dash/issues/369)) ([3a7b4a6](https://github.com/videojs/videojs-contrib-dash/commit/3a7b4a6))
+
+### Chores
+
+* add example that uses TTML subtitles ([#368](https://github.com/videojs/videojs-contrib-dash/issues/368)) ([563aac6](https://github.com/videojs/videojs-contrib-dash/commit/563aac6))
+* don't run tests on version ([6b15e7e](https://github.com/videojs/videojs-contrib-dash/commit/6b15e7e))
+
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/videojs/videojs-contrib-dash/compare/v4.1.0...v5.0.0) (2021-06-25)
+
+### Features
+
+* Dash.js 4.0.0 ([#363](https://github.com/videojs/videojs-contrib-dash/issues/363)) ([a9d76fc](https://github.com/videojs/videojs-contrib-dash/commit/a9d76fc))
+
+### Chores
+
+* skip require in vjsverify ([10488f6](https://github.com/videojs/videojs-contrib-dash/commit/10488f6))
+
+### Documentation
+
+* Update README to show support for Dash 3.x ([#361](https://github.com/videojs/videojs-contrib-dash/issues/361)) ([3854c61](https://github.com/videojs/videojs-contrib-dash/commit/3854c61)), closes [#336](https://github.com/videojs/videojs-contrib-dash/issues/336)
+
+
+### BREAKING CHANGES
+
+* no longer able to be required in nodejs.
+* update to DASH.js 4.0
+
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/videojs/videojs-contrib-dash/compare/v4.0.1...v4.1.0) (2021-02-18)
+
+### Bug Fixes
+
+* **package:** update to dashjs[@3](https://github.com/3).2.0 ([#356](https://github.com/videojs/videojs-contrib-dash/issues/356)) ([490817d](https://github.com/videojs/videojs-contrib-dash/commit/490817d))
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/videojs/videojs-contrib-dash/compare/v4.0.0...v4.0.1) (2021-02-18)
+
+### Bug Fixes
+
+* rollup plugins should be dev dependencies ([#352](https://github.com/videojs/videojs-contrib-dash/issues/352)) ([9d09a60](https://github.com/videojs/videojs-contrib-dash/commit/9d09a60))
+
+### Chores
+
+* setup github ci ([#355](https://github.com/videojs/videojs-contrib-dash/issues/355)) ([e28dbc4](https://github.com/videojs/videojs-contrib-dash/commit/e28dbc4))
+* update deps to resolve all audit issues ([#354](https://github.com/videojs/videojs-contrib-dash/issues/354)) ([c4585b8](https://github.com/videojs/videojs-contrib-dash/commit/c4585b8))
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/videojs/videojs-contrib-dash/compare/v3.0.0...v4.0.0) (2020-11-05)
+
+### Features
+
+* include dash.js in build ([#351](https://github.com/videojs/videojs-contrib-dash/issues/351)) ([6879286](https://github.com/videojs/videojs-contrib-dash/commit/6879286))
+
 CHANGELOG
 =========
+
+## 3.0.0 (2020-10-26)
+* BREAKING CHANGE: Update Dash.js to 3.1.3 (major version 3)
 
 ## 2.11.0 (2019-03-08)
 * Fix bug where VTT captions wouldn't show
